@@ -1,0 +1,23 @@
+listenaddr = "127.0.0.1:8082"
+logfilepath = ""
+ticker = 10000
+ethapi = "https://ropsten.infura.io/v3/1b65e3621097432db8199a8f6252dc53"
+masterchiefcontract = "0xA5ac68A02d4c3D17362C30CB0f8BBfb66b2Da0f9"
+pitayatokencontract = "0xf9ed0467475abf4af36c00cc2f41f6b3d64c2266"
+#release debug test
+mode = 0 # debug or release
+[db]
+port = "3306"
+user = "root"              # mysql username
+
+#pwd = "H3s63jhzPgOcSmwS"      # mysql password
+#name = "mini"   # the database this server used
+#host = "161.117.178.50"         # mysql host ip
+
+#pwd = "H3s63jhzPgOcSmwS"      # mysql password
+#name = "v2mainnet"   # the database this server used
+#host = "161.117.178.50"         # mysql host ip
+
+pwd = "123456"      # mysql password
+name = "crusa"   # the database this server used
+host = "127.0.0.1"         # mysql host ip

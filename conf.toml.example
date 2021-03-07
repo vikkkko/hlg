@@ -1,0 +1,23 @@
+listenaddr = "127.0.0.1:8082"
+logfilepath = ""
+ticker = 10000
+ethapi = "https://mainnet.infura.io/v3/1b65e3621097432db8199a8f6252dc53"
+masterchiefcontract = "0x85d34BFEb6D468618B7c5F0049d0F909444B2255"
+pitayatokencontract = "0x0BEa7D77aeDc4b9aC220045e303E5bEFa3048e45"
+#release debug test
+mode = 0 # debug or release
+[db]
+port = "3306"
+user = "root"              # mysql username
+
+#pwd = "H3s63jhzPgOcSmwS"      # mysql password
+#name = "mini"   # the database this server used
+#host = "161.117.178.50"         # mysql host ip
+
+#pwd = "H3s63jhzPgOcSmwS"      # mysql password
+#name = "v2mainnet"   # the database this server used
+#host = "161.117.178.50"         # mysql host ip
+
+pwd = "123456"      # mysql password
+name = "hbt_release"   # the database this server used
+host = "127.0.0.1"         # mysql host ip
